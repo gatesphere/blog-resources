@@ -1,0 +1,17 @@
+MIDlet-Name: PocketRave
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Jacob Peck
+MIDlet-Jar-URL: PocketRave.jar
+MIDlet-Jar-Size: 2651
+MIDlet-Description: PocketRave is a rave in your pocket!
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: PocketRave,img/icon.png,suschord.pocketrave.PocketRave
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: PocketRave.cod
+RIM-COD-Size: 19900
+RIM-COD-Creation-Time: 1347480854
+RIM-COD-Module-Name: PocketRave
+RIM-COD-Module-Dependencies: net_rim_cldc
+RIM-COD-SHA1: f6 01 55 a9 66 ca 34 3d 84 8c 39 45 74 e8 55 0d f5 66 b4 b2

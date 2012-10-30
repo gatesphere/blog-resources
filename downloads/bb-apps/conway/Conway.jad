@@ -1,0 +1,17 @@
+MIDlet-Name: Conway
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Jacob Peck
+MIDlet-Jar-URL: Conway.jar
+MIDlet-Jar-Size: 6403
+MIDlet-Description: Conway's Game of Life
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: Conway,img/Conway1.png,suschord.conway.Conway
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: Conway.cod
+RIM-COD-Size: 24540
+RIM-COD-Creation-Time: 1347652839
+RIM-COD-Module-Name: Conway
+RIM-COD-Module-Dependencies: net_rim_cldc
+RIM-COD-SHA1: c0 86 bd 4b 56 4f 81 b7 fa 6b b3 8a a2 f8 63 54 9f 8c 2e f8
