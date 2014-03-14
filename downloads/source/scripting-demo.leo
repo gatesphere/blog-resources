@@ -22,7 +22,7 @@
 <v t="peckj.20140128081459.13247"><vh>method tick</vh></v>
 </v>
 </v>
-<v t="peckj.20140128081459.13248"><vh>@button design-to-file</vh>
+<v t="peckj.20140128081459.13248" a="E"><vh>@button design-to-file</vh>
 <v t="peckj.20140128081459.13317"><vh>&lt;&lt; declarations &gt;&gt;</vh></v>
 <v t="peckj.20140128081459.13251"><vh>create_file_node</vh></v>
 <v t="peckj.20140128081459.13252" a="E"><vh>create_class_nodes</vh>
@@ -82,7 +82,7 @@ else:
   # create the docstring node
   docstringnode = filenode.insertAsLastChild()
   docstringnode.h = docstring
-  docstringnode.b = "\"\"\"%s\"\"\"" % designnode.b
+  docstringnode.b = '"""%s"""' % designnode.b
   
   # create the imports node (empty)
   importsnode = docstringnode.insertAfter()
@@ -109,7 +109,7 @@ else:
   # create the docstring node
   docstringnode = newclassnode.insertAsLastChild()
   docstringnode.h = docstring
-  docstringnode.b = "\"\"\"%s\"\"\"" % classnode.b
+  docstringnode.b = '"""%s"""' % classnode.b
   
   # create the method nodes
   # ignore the property nodes -- they're notes
